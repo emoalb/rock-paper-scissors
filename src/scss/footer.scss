@@ -1,0 +1,15 @@
+#footer {
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row;
+  width: 100%;
+}
+#reset-score{
+  width: 30%
+}
+#message{
+  margin: 2rem auto;
+  width: 30%;
+  text-align: center;
+}
+
