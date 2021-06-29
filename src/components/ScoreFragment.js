@@ -5,7 +5,7 @@ import React, {useState, useEffect} from "react";
 const ScoreFragment = (props) => {
     const [score, setScore] = useState(0);
     const addPoint = (points) => {
-        setScore(score + 1);
+        setScore(score + points);
     }
     useEffect(() => {
         observer.subscribeEvent(props.eventName, addPoint)
